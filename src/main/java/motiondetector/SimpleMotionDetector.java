@@ -1,6 +1,7 @@
 package motiondetector;
 
 import com.github.sarxos.webcam.*;
+import googledrive.DriveFileManager;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -18,6 +19,7 @@ public class SimpleMotionDetector implements WebcamMotionListener {
     private WebcamMotionDetector detector;
 
     private final int imageMax = 5;
+    private final String GOOGLE_DRIVE_DIRECTORY = "MotionDetectCaptures";
 
     public SimpleMotionDetector() {
 
@@ -45,7 +47,11 @@ public class SimpleMotionDetector implements WebcamMotionListener {
 
         imageCount++;
         if(imageCount>=imageMax){
-            ExitDetector();
+            try {
+                ExitDetector();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -64,10 +70,23 @@ public class SimpleMotionDetector implements WebcamMotionListener {
         return webcam;
     }
 
-    private void ExitDetector(){
+    private void ExitDetector() throws IOException {
         isRunning = false;
         webcam.close();
         detector.stop();
+        UploadToDrive();
+        System.exit(0);
+    }
+
+    private void UploadToDrive() throws IOException {
+        File folder = new File("./Captures/");
+        File[] files = folder.listFiles();
+
+        for(File file : files){
+            if(file.getName().contains("capture")) {
+                DriveFileManager.createGoogleFile(GOOGLE_DRIVE_DIRECTORY, "image/png", file.getName(), file);
+            }
+        }
     }
 
     public WebcamMotionDetector getDetector() {
