@@ -1,0 +1,46 @@
+Q: Are you trying to use the badge while it is in your wallet/purse or next to another badge/card?
+
+A: Any obstruction may cause the badge not to work with the reader – please scan you badge individually.  In addition, please remember your security badge is a form of identification and should be worn above your waist in plain view and not carried in a wallet/purse. 
+
+ 
+
+Q: Does your badge show any signs of physical damage?
+
+A: If your badge is physically damaged (chipped or cracked) or if you cut it, punched a hole in it, or left it directly exposed to sunlight it may no longer function properly and you will need to request a new one by submitting a HelpUS Badge Replacement request.
+
+ 
+
+Q: Is your card registering at the badge reader?
+
+A: Does the badge reader make a noise or change color? If not, try another badge reader and see if you get the same result.  If you badge continues to not read on any badge readers and you are the only one experiencing this issue then the chip in your card may have gone bad and you should submit a HelpUS Badge Replacement request.
+
+ 
+
+Q: Is this a badge reader you actively use?
+
+A: Make sure to test your badge on a reader you have previously used successfully; some areas are special access and not everyone can access them. If your badge works at one reader and not another then the room you are trying to access might be a special access area.  If it is a room you require access to please submit a HelpUS Badge Access request.
+
+ 
+
+Q: Have you recently returned from extended leave?
+
+A: You may not have an active profile in UltiPro, please reach out to HR and let them know you have returned to work. Once HR updates your status in the system your badge should work the following day. While you are waiting for your badge to be reactivated, you should request a temporary badge from your local receptionist. 
+
+ 
+
+Q: Has your employment status been extended?
+
+A: If you are working for Ultimate Software in a temporary status (contractor, vendor, temp, or an intern) and your employment status end date has been extended past your original leave date then your badge has been disabled and you will need to submit a HelpUS Badge Renewal request to reactivate it with the new date.
+
+ 
+
+Q: What if no one’s badge is working on the badge reader?
+
+A: If you and your co-workers are all unable to access a badge reader that you can normally access, please submit a HelpUS Badge Reader Outage request.
+
+In the event your Security Badge is still not working you can request a replacement by visiting our page in HelpUS:
+
+Go to the HelpUS Portal at helpus.ulti.com. 
+Click Request Something.
+From the Office Services category choose Badge Replacement.
+Fill out the Badge Replacement form and click Submit.
